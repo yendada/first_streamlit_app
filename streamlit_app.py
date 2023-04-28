@@ -1,7 +1,7 @@
 #Created the main Python file.
 
-import streamlit as st
+import streamlit
 
 streamlit.title('My Parents New Healthy Diner')
 
-st.header('Breakfast Menu')
+streamlit.header('Breakfast Menu')
