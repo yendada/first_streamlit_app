@@ -1,2 +1,3 @@
 #requirements.txt
-snowflake-connector-python
+# Old connector snowflake-connector-python
+snowflake-connector-python[pandas]
