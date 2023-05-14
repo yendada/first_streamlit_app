@@ -61,7 +61,7 @@ fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
 # Diplaying the normalized data in a data frame ie a table.
 streamlit.dataframe(fruityvice_normalized)
 
-// Importing required packages indicated in requirements.txt into snowflake via importing snowflake dot connector
+#Importing required packages indicated in requirements.txt into snowflake via importing snowflake dot connector
 import snowflake.connector
 
 
